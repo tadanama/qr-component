@@ -45,14 +45,27 @@ body {
 	/* Set qr-container background color */
 	background-color: white;
 
-    /* QR container padding */
+	/* QR container padding */
 	padding-top: var(--small-spacing);
 	padding-bottom: var(--large-spacing);
 	padding-left: var(--small-spacing);
 	padding-right: var(--small-spacing);
 
-    /* Center text inside qr-container */
-    text-align: center;
+	/* Center text inside qr-container */
+	text-align: center;
+}
+
+h1 {
+	/* Change font-size and line-height according to the figma design */
+	font-size: 22px;
+	line-height: 120%;
+}
+
+p {
+	/* Change font-size, line-height and letter-spacing according to the figma design */
+	font-size: 15px;
+	line-height: 140%;
+	letter-spacing: 0.2px;
 }
 
 /* Setting the image width, so that it takes 100% of its parents(qr-container) width */
