@@ -100,6 +100,8 @@ img {
 	border-radius: 10px;
 }
 
+/* Media queries to make the website responsive */
+/* Change the qr-container width, header and paragraph font-size when screen size is small */
 @media only screen and (max-width: 350px) {
 	.qr-container {
 		width: 300px;
