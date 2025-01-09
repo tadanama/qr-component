@@ -1,5 +1,5 @@
 /* Import Outfit font-family from google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 /* Define css variables */
 :root {
@@ -21,15 +21,25 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-    font-family: Outfit;
+	font-family: Outfit;
 }
 
-.qr-container{
-    /* Setting the width of the container */
-    width: 320px;
+/* Vertically and horizontally center qr-container */
+body {
+	/* Set the height to 100vh(full browser height) so that it has room to vertically align */
+	min-height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.qr-container {
+	/* Setting the width of the container */
+	width: 320px;
 }
 
 /* Setting the image width, so that it takes 100% of its parents(qr-container) width */
-img{
-    width: 100%;
+img {
+	width: 100%;
 }
