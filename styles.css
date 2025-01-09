@@ -50,6 +50,9 @@ body {
 	padding-bottom: var(--large-spacing);
 	padding-left: var(--small-spacing);
 	padding-right: var(--small-spacing);
+
+    /* Center text inside qr-container */
+    text-align: center;
 }
 
 /* Setting the image width, so that it takes 100% of its parents(qr-container) width */
