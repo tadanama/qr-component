@@ -26,7 +26,8 @@ Mobile view:
 ![Mobile screenshot 320px](./images/qr-code-component-final-result-mobile-320px.png)
 
 - 350px
-  ![Mobile screenshot 350px](./images/qr-code-component-final-result-mobile-350px.png)
+
+![Mobile screenshot 350px](./images/qr-code-component-final-result-mobile-350px.png)
 
 ### Links
 
