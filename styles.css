@@ -19,3 +19,13 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.qr-container{
+    /* Setting the width of the container */
+    width: 320px;
+}
+
+/* Setting the image width, so that it takes 100% of its parents(qr-container) width */
+img{
+    width: 100%;
+}
