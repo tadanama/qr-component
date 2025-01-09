@@ -57,13 +57,13 @@ body {
 	/* Round the corners of qr-container */
 	border-radius: 20px;
 
-    /* Add box shadow */
-    box-shadow: -2px 10px 10px 10px rgba(0, 0, 0, 0.025);
+	/* Add box shadow */
+	box-shadow: -2px 10px 10px 10px rgba(0, 0, 0, 0.025);
 }
 
 h1 {
-    /* Change font color */
-    color: var(--dark-color);
+	/* Change font color */
+	color: var(--dark-color);
 
 	/* Change font-size and line-height according to the figma design */
 	font-size: 22px;
@@ -74,8 +74,8 @@ h1 {
 }
 
 p {
-    /* Change font color */
-    color: var(--medium-color);
+	/* Change font color */
+	color: var(--medium-color);
 
 	/* Change font-size, line-height and letter-spacing according to the figma design */
 	font-size: 15px;
@@ -98,4 +98,32 @@ img {
 
 	/* Round the corners of the image */
 	border-radius: 10px;
+}
+
+@media only screen and (max-width: 350px) {
+	.qr-container {
+		width: 300px;
+	}
+
+	h1 {
+		font-size: 20px;
+	}
+
+	p {
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.qr-container {
+		width: 270px;
+	}
+
+	h1 {
+		font-size: 18px;
+	}
+
+	p {
+		font-size: 11px;
+	}
 }
