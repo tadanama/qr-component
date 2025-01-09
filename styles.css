@@ -1,3 +1,4 @@
+/* Define css variables */
 :root {
 	--dark-color: #1f314f;
 	--medium-color: #68778d;
@@ -12,6 +13,7 @@
 	--small-spacing: 16px;
 }
 
+/* Remove margin, padding and setting box sizing */
 * {
 	margin: 0;
 	padding: 0;
