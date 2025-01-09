@@ -53,6 +53,9 @@ body {
 
 	/* Center text inside qr-container */
 	text-align: center;
+
+	/* Round the corners of qr-container */
+	border-radius: 20px;
 }
 
 h1 {
@@ -60,8 +63,8 @@ h1 {
 	font-size: 22px;
 	line-height: 120%;
 
-    /* Add margin-bottom to space out the h1 and paragraph */
-    margin-bottom: var(--small-spacing);
+	/* Add margin-bottom to space out the h1 and paragraph */
+	margin-bottom: var(--small-spacing);
 }
 
 p {
@@ -72,14 +75,18 @@ p {
 }
 
 /* Add padding to both h1 and paragraph */
-h1, p{
-    padding-inline: var(--small-spacing);
+h1,
+p {
+	padding-inline: var(--small-spacing);
 }
 
 /* Setting the image width, so that it takes 100% of its parents(qr-container) width */
 img {
 	width: 100%;
 
-    /* Add margin-bottom to space out the image and h1 */
-    margin-bottom: var(--medium-spacing);
+	/* Add margin-bottom to space out the image and h1 */
+	margin-bottom: var(--medium-spacing);
+
+	/* Round the corners of the image */
+	border-radius: 10px;
 }
