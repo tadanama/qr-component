@@ -1,3 +1,17 @@
+:root {
+	--dark-color: #1f314f;
+	--medium-color: #68778d;
+	--light-color: #d5e1ef;
+
+	--bold-fontweight: 900;
+	--medium-fontweight: 500;
+	--light-fontwight: 300;
+
+	--large-spacing: 40px;
+	--medium-spacing: 24px;
+	--small-spacing: 16px;
+}
+
 * {
 	margin: 0;
 	padding: 0;
