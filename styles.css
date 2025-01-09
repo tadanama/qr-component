@@ -45,6 +45,7 @@ body {
 	/* Set qr-container background color */
 	background-color: white;
 
+    /* QR container padding */
 	padding-top: var(--small-spacing);
 	padding-bottom: var(--large-spacing);
 	padding-left: var(--small-spacing);
