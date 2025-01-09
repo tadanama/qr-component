@@ -59,6 +59,9 @@ body {
 }
 
 h1 {
+    /* Change font color */
+    color: var(--dark-color);
+
 	/* Change font-size and line-height according to the figma design */
 	font-size: 22px;
 	line-height: 120%;
@@ -68,6 +71,9 @@ h1 {
 }
 
 p {
+    /* Change font color */
+    color: var(--medium-color);
+
 	/* Change font-size, line-height and letter-spacing according to the figma design */
 	font-size: 15px;
 	line-height: 140%;
