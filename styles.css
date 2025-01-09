@@ -59,6 +59,9 @@ h1 {
 	/* Change font-size and line-height according to the figma design */
 	font-size: 22px;
 	line-height: 120%;
+
+    /* Add margin-bottom to space out the h1 and paragraph */
+    margin-bottom: var(--small-spacing);
 }
 
 p {
@@ -71,4 +74,7 @@ p {
 /* Setting the image width, so that it takes 100% of its parents(qr-container) width */
 img {
 	width: 100%;
+
+    /* Add margin-bottom to space out the image and h1 */
+    margin-bottom: var(--medium-spacing);
 }
