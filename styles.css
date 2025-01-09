@@ -33,11 +33,17 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+    /* Set body background color */
+    background-color: var(--light-color);
 }
 
 .qr-container {
 	/* Setting the width of the container */
 	width: 320px;
+
+    /* Set qr-container background color */
+    background-color: white;
 }
 
 /* Setting the image width, so that it takes 100% of its parents(qr-container) width */
