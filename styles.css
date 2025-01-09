@@ -29,6 +29,7 @@ body {
 	/* Set the height to 100vh(full browser height) so that it has room to vertically align */
 	min-height: 100vh;
 
+    /* Vertically and horizontally center qr-container */
 	display: flex;
 	justify-content: center;
 	align-items: center;
