@@ -71,6 +71,11 @@ p {
 	letter-spacing: 0.2px;
 }
 
+/* Add padding to both h1 and paragraph */
+h1, p{
+    padding-inline: var(--small-spacing);
+}
+
 /* Setting the image width, so that it takes 100% of its parents(qr-container) width */
 img {
 	width: 100%;
